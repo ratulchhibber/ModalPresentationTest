@@ -13,6 +13,7 @@
 		E75B24BD23D6114600AB4CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75B24BB23D6114600AB4CB5 /* Main.storyboard */; };
 		E75B24BF23D6114E00AB4CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75B24BE23D6114E00AB4CB5 /* Assets.xcassets */; };
 		E75B24C223D6114E00AB4CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75B24C023D6114E00AB4CB5 /* LaunchScreen.storyboard */; };
+		E75B24CA23D6130800AB4CB5 /* ColoredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B24C923D6130800AB4CB5 /* ColoredVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E75B24BE23D6114E00AB4CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75B24C123D6114E00AB4CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E75B24C323D6114E00AB4CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75B24C923D6130800AB4CB5 /* ColoredVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E75B24B523D6114600AB4CB5 /* AppDelegate.swift */,
 				E75B24B723D6114600AB4CB5 /* SceneDelegate.swift */,
 				E75B24B923D6114600AB4CB5 /* ViewController.swift */,
+				E75B24C923D6130800AB4CB5 /* ColoredVC.swift */,
 				E75B24BB23D6114600AB4CB5 /* Main.storyboard */,
 				E75B24BE23D6114E00AB4CB5 /* Assets.xcassets */,
 				E75B24C023D6114E00AB4CB5 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				E75B24BA23D6114600AB4CB5 /* ViewController.swift in Sources */,
 				E75B24B623D6114600AB4CB5 /* AppDelegate.swift in Sources */,
 				E75B24B823D6114600AB4CB5 /* SceneDelegate.swift in Sources */,
+				E75B24CA23D6130800AB4CB5 /* ColoredVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
